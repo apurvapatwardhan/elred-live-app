@@ -41,7 +41,7 @@ function MySkills() {
             {
               skill.map(sk => {
                 return (<div onClick={() => dispatch(removeSkills(sk))}>
-                  <p>{sk} <span>x</span></p>
+                  <button>{sk} <span>x</span></button>
                 </div>)
               })
             }
@@ -62,7 +62,7 @@ function MySkills() {
         {
               hobby.map(sk => {
                 return (<div onClick={() => dispatch(removeSkills(sk))}>
-                  <p>{sk} <span>x</span></p>
+                  <button>{sk} <span>x</span></button>
                 </div>)
               })
             }
@@ -82,7 +82,7 @@ function MySkills() {
         {
               subject.map(sk => {
                 return (<div onClick={() => dispatch(removeSkills(sk))}>
-                  <p>{sk} <span>x</span></p>
+                  <button>{sk} <span>x</span></button>
                 </div>)
               })
             }
