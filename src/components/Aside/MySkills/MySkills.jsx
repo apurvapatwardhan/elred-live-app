@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { HOBBY_URL, SKILL_URL, SUB_URL } from '../../../constants';
-import { removeSkills, setHobbies, setSkills, setSubjects } from '../../../redux/Slices/SkillsSlice';
+import { removeHobbies, removeSkills, removeSubjects, setHobbies, setSkills, setSubjects } from '../../../redux/Slices/SkillsSlice';
 import "./MySkills.css"
 
 function MySkills() {
@@ -35,6 +35,9 @@ function MySkills() {
   }, [])
   return (
     <div className='myskill'>
+      <div>
+        <p><span onClick={() => navigate(-1)}>{'<'}</span> Skill</p>
+      </div>
       <div className='myskill-skills'>
         <p>I am incredible at these skills</p>
         <div className='myskill-currskill'>
@@ -61,7 +64,7 @@ function MySkills() {
         <div className='myskill-currskill'>
         {
               hobby.map(sk => {
-                return (<div onClick={() => dispatch(removeSkills(sk))}>
+                return (<div onClick={() => dispatch(removeHobbies(sk))}>
                   <button>{sk} <span>x</span></button>
                 </div>)
               })
@@ -81,7 +84,7 @@ function MySkills() {
         <div className='myskill-currskill'>
         {
               subject.map(sk => {
-                return (<div onClick={() => dispatch(removeSkills(sk))}>
+                return (<div onClick={() => dispatch(removeSubjects(sk))}>
                   <button>{sk} <span>x</span></button>
                 </div>)
               })
