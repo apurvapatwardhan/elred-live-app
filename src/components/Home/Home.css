@@ -1,0 +1,40 @@
+.home {
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-bio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.home-aboutme-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-bg {
+    display: flex;
+    justify-content: space-between;
+}
+.home-resume {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px 0px gray;
+    align-items: center;
+}
+
+.home-resume-left {
+    display: flex;
+    gap: 1rem;
+}
+.home-resume-left img {
+    width: 3rem;
+}
+/* .flex-tw {
+    display: flex;
+    justify-content: space-between;
+} */

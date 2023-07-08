@@ -1,0 +1,73 @@
+.skills-skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.skills-hobby {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.skills-subject {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.skills-hobby div {
+    display: flex;
+    justify-content: space-between;
+    width: min-content;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 100px;
+    flex: 0 0 5rem;
+    margin: 0;
+    align-self: center;
+    font-size: 16px;
+}
+
+.skills-subject div {
+    display: flex;
+    justify-content: space-between;
+    width: min-content;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 100px;
+    flex: 0 0 5rem;
+    margin: 0;
+    align-self: center;
+    font-size: 16px;
+}
+
+.skills-skill div {
+    display: flex;
+    justify-content: space-between;
+    width: min-content;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 100px;
+    flex: 0 0 5rem;
+    margin: 0;
+    align-self: center;
+    font-size: 16px;
+}
+
+.skill-remove {
+    width: 4px;
+    height: 4px;
+    background-color: blue;
+    color:white;
+    border-radius: 100px;
+}

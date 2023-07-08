@@ -1,0 +1,24 @@
+.my-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mybio-about {
+    display: flex;
+    flex-direction: column;
+}
+.mybio-save-enable {
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-bio option {
+    width: 50%;
+    font-size: 8px;
+
+}

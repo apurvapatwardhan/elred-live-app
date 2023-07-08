@@ -1,0 +1,16 @@
+.body {
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: auto;
+}
